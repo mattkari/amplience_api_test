@@ -1,0 +1,208 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-27T17:00:40.696Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6542420000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.amplience.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify the profile information on Github",
+        "description": "",
+        "id": "github-profile-information;verify-the-profile-information-on-github",
+        "after": [
+          {
+            "result": {
+              "duration": 142847000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.amplience.step_definitions.Hooks.closure(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 211576000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the github profile page",
+            "match": {
+              "location": "com.amplience.step_definitions.githubProfile_StepDef.i_am_on_the_github_profile_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 232283000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the profile information should be as following",
+            "match": {
+              "location": "com.amplience.step_definitions.githubProfile_StepDef.the_profile_information_should_be_as_following(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Gregory Loscombe"
+                ]
+              },
+              {
+                "cells": [
+                  "location",
+                  "Manchester"
+                ]
+              },
+              {
+                "cells": [
+                  "public_repos",
+                  "7"
+                ]
+              },
+              {
+                "cells": [
+                  "followers",
+                  "13"
+                ]
+              },
+              {
+                "cells": [
+                  "following",
+                  "29"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@UI"
+          }
+        ]
+      }
+    ],
+    "name": "Github profile information",
+    "description": "",
+    "id": "github-profile-information",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/githubProfile.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@UI",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 6
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-27T17:00:48.006Z",
+        "line": 3,
+        "name": "Name Confirmation",
+        "description": "",
+        "id": "confirmation-of-gregory-loscombe-info;name-confirmation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3278875000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigate to api \"6wl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6wl\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.amplience.step_definitions.personalInfo_StepDef.user_navigate_to_api(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1874907000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "name is \"Gregory Loscombe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gregory Loscombe\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.amplience.step_definitions.personalInfo_StepDef.name_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1864000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 15
+                }
+              ],
+              "location": "com.amplience.step_definitions.personalInfo_StepDef.statusCodeIs(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Confirmation of Gregory Loscombe info",
+    "description": "",
+    "id": "confirmation-of-gregory-loscombe-info",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/personalInfo.feature",
+    "tags": []
+  }
+]

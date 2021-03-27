@@ -1,0 +1,92 @@
+DEBUG   2021-03-27 17:00:41,811 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 17:53:09 27/03/2021 GMT)
+DEBUG   2021-03-27 17:00:41,830 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 14:56:44 28/03/2021 BST)
+INFO    2021-03-27 17:00:41,831 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-27 17:00:41,872 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-27 17:00:41,875 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/karimov/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
+INFO    2021-03-27 17:00:47,645 [main] com.amplience.step_definitions.githubProfile_StepDef  - Gregory Loscombe
+INFO    2021-03-27 17:00:47,692 [main] com.amplience.step_definitions.githubProfile_StepDef  - Manchester
+INFO    2021-03-27 17:00:47,731 [main] com.amplience.step_definitions.githubProfile_StepDef  - 7
+INFO    2021-03-27 17:00:47,775 [main] com.amplience.step_definitions.githubProfile_StepDef  - 13
+INFO    2021-03-27 17:00:47,808 [main] com.amplience.step_definitions.githubProfile_StepDef  - 29
+DEBUG   2021-03-27 17:00:50,719 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://api.github.com:443
+DEBUG   2021-03-27 17:00:50,740 [main] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to api.github.com:443
+DEBUG   2021-03-27 17:00:51,054 [main] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+DEBUG   2021-03-27 17:00:51,056 [main] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2021-03-27 17:00:51,056 [main] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+DEBUG   2021-03-27 17:00:51,057 [main] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+DEBUG   2021-03-27 17:00:51,057 [main] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+DEBUG   2021-03-27 17:00:51,057 [main] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /users/6wl HTTP/1.1
+DEBUG   2021-03-27 17:00:51,058 [main] org.apache.http.wire  -  >> "GET /users/6wl HTTP/1.1[\r][\n]"
+DEBUG   2021-03-27 17:00:51,059 [main] org.apache.http.wire  -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+DEBUG   2021-03-27 17:00:51,059 [main] org.apache.http.wire  -  >> "Host: api.github.com[\r][\n]"
+DEBUG   2021-03-27 17:00:51,059 [main] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG   2021-03-27 17:00:51,059 [main] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/12.0.1)[\r][\n]"
+DEBUG   2021-03-27 17:00:51,059 [main] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG   2021-03-27 17:00:51,059 [main] org.apache.http.wire  -  >> "[\r][\n]"
+DEBUG   2021-03-27 17:00:51,059 [main] org.apache.http.headers  - >> GET /users/6wl HTTP/1.1
+DEBUG   2021-03-27 17:00:51,060 [main] org.apache.http.headers  - >> Accept: application/json, application/javascript, text/javascript, text/json
+DEBUG   2021-03-27 17:00:51,060 [main] org.apache.http.headers  - >> Host: api.github.com
+DEBUG   2021-03-27 17:00:51,060 [main] org.apache.http.headers  - >> Connection: Keep-Alive
+DEBUG   2021-03-27 17:00:51,060 [main] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/12.0.1)
+DEBUG   2021-03-27 17:00:51,060 [main] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+DEBUG   2021-03-27 17:00:51,201 [main] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2021-03-27 17:00:51,203 [main] org.apache.http.wire  -  << "Server: GitHub.com[\r][\n]"
+DEBUG   2021-03-27 17:00:51,204 [main] org.apache.http.wire  -  << "Date: Sat, 27 Mar 2021 17:00:51 GMT[\r][\n]"
+DEBUG   2021-03-27 17:00:51,204 [main] org.apache.http.wire  -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG   2021-03-27 17:00:51,204 [main] org.apache.http.wire  -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+DEBUG   2021-03-27 17:00:51,204 [main] org.apache.http.wire  -  << "Vary: Accept, Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+DEBUG   2021-03-27 17:00:51,204 [main] org.apache.http.wire  -  << "ETag: W/"078bfcd2a618deb1f1579c6cec523456953272cff6d67fce8e73e8c538b18654"[\r][\n]"
+DEBUG   2021-03-27 17:00:51,204 [main] org.apache.http.wire  -  << "Last-Modified: Mon, 15 Mar 2021 23:01:01 GMT[\r][\n]"
+DEBUG   2021-03-27 17:00:51,204 [main] org.apache.http.wire  -  << "X-GitHub-Media-Type: github.v3[\r][\n]"
+DEBUG   2021-03-27 17:00:51,205 [main] org.apache.http.wire  -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset[\r][\n]"
+DEBUG   2021-03-27 17:00:51,205 [main] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG   2021-03-27 17:00:51,205 [main] org.apache.http.wire  -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+DEBUG   2021-03-27 17:00:51,206 [main] org.apache.http.wire  -  << "X-Frame-Options: deny[\r][\n]"
+DEBUG   2021-03-27 17:00:51,206 [main] org.apache.http.wire  -  << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG   2021-03-27 17:00:51,206 [main] org.apache.http.wire  -  << "X-XSS-Protection: 0[\r][\n]"
+DEBUG   2021-03-27 17:00:51,206 [main] org.apache.http.wire  -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+DEBUG   2021-03-27 17:00:51,206 [main] org.apache.http.wire  -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+DEBUG   2021-03-27 17:00:51,206 [main] org.apache.http.wire  -  << "Content-Encoding: gzip[\r][\n]"
+DEBUG   2021-03-27 17:00:51,207 [main] org.apache.http.wire  -  << "X-RateLimit-Limit: 60[\r][\n]"
+DEBUG   2021-03-27 17:00:51,207 [main] org.apache.http.wire  -  << "X-RateLimit-Remaining: 57[\r][\n]"
+DEBUG   2021-03-27 17:00:51,207 [main] org.apache.http.wire  -  << "X-RateLimit-Reset: 1616864559[\r][\n]"
+DEBUG   2021-03-27 17:00:51,207 [main] org.apache.http.wire  -  << "X-RateLimit-Used: 3[\r][\n]"
+DEBUG   2021-03-27 17:00:51,207 [main] org.apache.http.wire  -  << "Accept-Ranges: bytes[\r][\n]"
+DEBUG   2021-03-27 17:00:51,207 [main] org.apache.http.wire  -  << "Content-Length: 463[\r][\n]"
+DEBUG   2021-03-27 17:00:51,208 [main] org.apache.http.wire  -  << "X-GitHub-Request-Id: D0CD:8C7A:2C3DEC3:2CF1702:605F64C2[\r][\n]"
+DEBUG   2021-03-27 17:00:51,208 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2021-03-27 17:00:51,212 [main] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+DEBUG   2021-03-27 17:00:51,213 [main] org.apache.http.headers  - << HTTP/1.1 200 OK
+DEBUG   2021-03-27 17:00:51,213 [main] org.apache.http.headers  - << Server: GitHub.com
+DEBUG   2021-03-27 17:00:51,213 [main] org.apache.http.headers  - << Date: Sat, 27 Mar 2021 17:00:51 GMT
+DEBUG   2021-03-27 17:00:51,213 [main] org.apache.http.headers  - << Content-Type: application/json; charset=utf-8
+DEBUG   2021-03-27 17:00:51,213 [main] org.apache.http.headers  - << Cache-Control: public, max-age=60, s-maxage=60
+DEBUG   2021-03-27 17:00:51,213 [main] org.apache.http.headers  - << Vary: Accept, Accept-Encoding, Accept, X-Requested-With
+DEBUG   2021-03-27 17:00:51,213 [main] org.apache.http.headers  - << ETag: W/"078bfcd2a618deb1f1579c6cec523456953272cff6d67fce8e73e8c538b18654"
+DEBUG   2021-03-27 17:00:51,214 [main] org.apache.http.headers  - << Last-Modified: Mon, 15 Mar 2021 23:01:01 GMT
+DEBUG   2021-03-27 17:00:51,214 [main] org.apache.http.headers  - << X-GitHub-Media-Type: github.v3
+DEBUG   2021-03-27 17:00:51,214 [main] org.apache.http.headers  - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+DEBUG   2021-03-27 17:00:51,214 [main] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+DEBUG   2021-03-27 17:00:51,214 [main] org.apache.http.headers  - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+DEBUG   2021-03-27 17:00:51,214 [main] org.apache.http.headers  - << X-Frame-Options: deny
+DEBUG   2021-03-27 17:00:51,214 [main] org.apache.http.headers  - << X-Content-Type-Options: nosniff
+DEBUG   2021-03-27 17:00:51,214 [main] org.apache.http.headers  - << X-XSS-Protection: 0
+DEBUG   2021-03-27 17:00:51,214 [main] org.apache.http.headers  - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+DEBUG   2021-03-27 17:00:51,214 [main] org.apache.http.headers  - << Content-Security-Policy: default-src 'none'
+DEBUG   2021-03-27 17:00:51,214 [main] org.apache.http.headers  - << Content-Encoding: gzip
+DEBUG   2021-03-27 17:00:51,215 [main] org.apache.http.headers  - << X-RateLimit-Limit: 60
+DEBUG   2021-03-27 17:00:51,215 [main] org.apache.http.headers  - << X-RateLimit-Remaining: 57
+DEBUG   2021-03-27 17:00:51,215 [main] org.apache.http.headers  - << X-RateLimit-Reset: 1616864559
+DEBUG   2021-03-27 17:00:51,215 [main] org.apache.http.headers  - << X-RateLimit-Used: 3
+DEBUG   2021-03-27 17:00:51,215 [main] org.apache.http.headers  - << Accept-Ranges: bytes
+DEBUG   2021-03-27 17:00:51,215 [main] org.apache.http.headers  - << Content-Length: 463
+DEBUG   2021-03-27 17:00:51,215 [main] org.apache.http.headers  - << X-GitHub-Request-Id: D0CD:8C7A:2C3DEC3:2CF1702:605F64C2
+DEBUG   2021-03-27 17:00:51,226 [main] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+DEBUG   2021-03-27 17:00:51,275 [main] io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+DEBUG   2021-03-27 17:00:51,276 [main] org.apache.http.wire  -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x95]SMk[0xdc]0[0x14][0xfc]+E[0xe7][0xdd][0xc8][0x1f][0xcd][0xa6]5[0x94]^Zz[0xe9][0x16][\n]"
+DEBUG   2021-03-27 17:00:51,278 [main] org.apache.http.wire  -  << "m)[0xb9],[0xb2][0xac][0xd8]*[0xb2]d$[0xd9]fc[0xf2][0xdf];[0x92][0x9c][0x90].[0x14][0xbc]`[0x90]%[0xcf][0xcc][0x1b][0x8d][0xdf][[0x88]2[0xad][0xd4][0xa4]"[0x87]Y[0x91][0x1d][0x91][\r][0xa9][0xf2][0xdb][0xb2][0xcc]vD[0x9b]F[0x9c][0xc2][0x9e][0x1c]?}?[0xfc][0xfa][0xfd]M[0xf1]?[0x9f][0xf3][0xe3][0xe3]q[0x6][0x8e]M[0xcc]3{[0x1a][0xad][0xc2][0xf7][0xce][0xfb][0xc1]U[0x94][0xa6]Cw[0xd3]J[0xdf][0x8d][0xf5][0xe8][0x84][0xe5]F{[0xa1][0xfd][\r]7=[0x1d]i[0x14][0xfe]8}x[0xb][0x81][0xd6][0xae][0x12][0xb1][0x2][0xe].[0xa4][0x6][0xb9][0xca]$.[0xb4][0x1c]M[0x16];[0xdf][0xab][0x8b][0xc2][0xa9]`D&[0xcc][0x83]Q[0xca][0xcc][0xe0]\:[0xfc][0x8f],}![0xc0]Iz[0x97][0xba][0xbd][0x8e][0xc][0xc2]B[0x8d][0xef][0x4]b"
+DEBUG   2021-03-27 17:00:51,279 [main] org.apache.http.wire  -  << "[0x81][0xdd][0xa7]pI[0xe9][0xfc]f[0xb][0x11][0xbc][0xd0][0xb0] [0xf6]@w[0x88][0xd8][0x8a]f[0xab][0x8d][0x15][0xe][0x13][0xb3]F[0xfd][0x85]Z1[0x98][0xa8]3[0xd6][0x8e][9xi[0xf4]f;[0xff][0x90] bl[0xcb][0xb4]|dW[0x89][0x80][0xe4][0xc0][\r]F6[0x17][0x8e]`[0x90][0xc4][0x84][0xce][0xd9][0xcc]J[0xe8][0x85][0xe]VN[0x8c][0x9f][0xc3][0xb5][0xad][0xe0]BN[0xc8][0xef]:[0xa5][0xb][0x1a][0x84][0xfc]y[0x10]h[0xd2][0x9f][0xf8][0xab]!M[0xe9][0xc5][0x89]5}[0x98][0x9a][0x7][0xa6][0x9c][0xc0][0xa8][0xb0]>[0x0][0xbe]X[0xd1][0x1a]{~[0xf3][0xd5]8[0xb4]b-[0x0][0xc6]:0}&[0x95][0x1e][0x95][0xda][0x91][0x1a][0xd3][0x96][0xda]][0x19][0x1e][0xa3][0xc][0xe3][0xc5]4[0xef][0x84][0xf3]Q][0xf4]Lb[0xa6][0x12][0xbc][0x93]V[0xb0]ZA{[0xa5]K[0xf3][0xfc][0xea]g[0xe9][0xc1][0x88][0xad][0x96][0xca]'[0xc8]0[0xd6]J[0xf2]S[\n]"
+DEBUG   2021-03-27 17:00:51,279 [main] org.apache.http.wire  -  << "[0xb1][0xba][0xdb][0x91][0xf5] v[0x17]f;[0xee]o[0xc][0x7][0xb6][0xe5][0xab]v'U[0xf1][0x1e][0x8e]Q[0xd2]#4[0xe6]a[0xad][0xc8][0xb2]w[0xfb][0xec][0xb0]/[0xee]~[0x14]%>WYv[0xf][0x93][0xe3][0xd0][0xbc][0xc6][0x14][0xf9]>+[0xf7][0xf9]m[0xc0]d9[0x9e]{[0xf2][0xf4][0x17]F4<[0xc8]Y[0x4][0x0][0x0]"
+DEBUG   2021-03-27 17:00:51,280 [main] io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+DEBUG   2021-03-27 17:00:51,394 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7f977fba
+DEBUG   2021-03-27 17:00:51,394 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
