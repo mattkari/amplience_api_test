@@ -1,0 +1,8 @@
+/Users/dusmamatkarimov/dev/amplience_api_test/src/test/java/com/amplience/pages/profilePage.java
+/Users/dusmamatkarimov/dev/amplience_api_test/src/test/java/com/amplience/runners/CukesRunner.java
+/Users/dusmamatkarimov/dev/amplience_api_test/src/test/java/com/amplience/runners/FailedTestRunner.java
+/Users/dusmamatkarimov/dev/amplience_api_test/src/test/java/com/amplience/step_definitions/Hooks.java
+/Users/dusmamatkarimov/dev/amplience_api_test/src/test/java/com/amplience/step_definitions/githubProfile_StepDef.java
+/Users/dusmamatkarimov/dev/amplience_api_test/src/test/java/com/amplience/step_definitions/personalInfo_StepDef.java
+/Users/dusmamatkarimov/dev/amplience_api_test/src/test/java/com/amplience/utilities/ConfigurationReader.java
+/Users/dusmamatkarimov/dev/amplience_api_test/src/test/java/com/amplience/utilities/Driver.java
