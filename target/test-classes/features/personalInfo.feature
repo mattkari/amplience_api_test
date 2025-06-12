@@ -1,5 +1,6 @@
+@wip
 Feature: Confirmation of Gregory Loscombe info
-  @wip
+
   Scenario: Name Confirmation
     When user navigate to api "6wl"
     Then name is "Gregory Loscombe"
