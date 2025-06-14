@@ -9,8 +9,9 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>12</maven.compiler.source>
-        <maven.compiler.target>12</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
 <dependencies>
@@ -33,27 +34,27 @@
     <dependency>
         <groupId>io.cucumber</groupId>
         <artifactId>cucumber-java</artifactId>
-        <version>5.7.0</version>
+        <version>6.11.0</version>
     </dependency>
 
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
-        <version>3.141.59</version>
+        <version>4.15.0</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
     <dependency>
         <groupId>io.github.bonigarcia</groupId>
         <artifactId>webdrivermanager</artifactId>
-        <version>4.1.0</version>
+        <version>5.6.2</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
     <dependency>
         <groupId>io.cucumber</groupId>
         <artifactId>cucumber-junit</artifactId>
-        <version>5.7.0</version>
+        <version>6.11.0</version>
         <scope>test</scope>
     </dependency>
 
@@ -79,6 +80,7 @@
                     <runOrder>Alphabetical</runOrder>
                     <includes>
                         <include>**/*CukesRunner.java</include>
+                        <include>**/*FailedTestRunner.java</include>
                     </includes>
                 </configuration>
             </plugin>
@@ -99,7 +101,11 @@
                             <inputDirectory>${project.build.directory}</inputDirectory>
                             <jsonFiles>
                                 <param>**/cucumber*.json</param>
+                                <param>**/failed-cucumber*.json</param>
                             </jsonFiles>
+                            <skippedFails>true</skippedFails>
+                            <buildNumber>${build.number}</buildNumber>
+                            <checkBuildResult>false</checkBuildResult>
                         </configuration>
                     </execution>
                 </executions>
